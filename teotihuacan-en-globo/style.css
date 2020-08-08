@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+header{
+	background:url(images/globoheader.jpg) no-repeat;
+	width:100%;
+	background-size:cover;
+}
+h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size:2.7em;
+	text-align:right;
+	color:#FFF;
+	font-weight:bold;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size:2em;
+	text-align:center;
+	color:#652383;
+	font-weight:bold;
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.7em;
+	text-align:center;
+	color:#3C3C3B;
+	font-weight:bold;
+}
+p{
+	font-size:0.9em;
+
+}
+.sub{
+	font-size:1.375em;
+}
+
+.blanco{
+	color:#FFFFFF;
+}
+
+.cta{
+	background:#87B500;
+	padding: 10px 20px 5px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+}
+.cta:hover{
+	color:#FFF;
+	background:#652383;
+	}
+	.bottom60{
+		margin-bottom:100px;
+	}
+	.precio{
+		font-size:2em;
+		color:#652382;
+		text-align:right;
+	}
+	.adultos{
+		font-size:0.7em;
+		color:#652382;
+		text-align:right;
+	}
+	
+	.ninos{
+		font-size:1em;
+		color:#652382;
+		text-align:right;}
+		
+		
+		#sombra{
+			-webkit-box-shadow: 3px 3px 3px 3px rgba(204,204,204,1);
+-moz-box-shadow: 3px 3px 3px 3px rgba(204,204,204,1);
+box-shadow: 3px 3px 3px 3px rgba(204,204,204,1);
+padding:50px 70px;
+		}
+		
+		#morado{
+			background:#652382;
+			padding:100px 0;
+			font-size:1em;
+			color:#FFF;
+		}
+		#morado p {font-size:1em; line-height:30px;}
+		
+		#foto{
+			background:url(images/vuelos2.jpg) no-repeat;
+			background-size:cover;
+			font-size:1em;
+		}
+		#desc{
+			padding:230px 100px 0;
+			color:#FFF;
+			font-size:1em;
+			font-weight:bold;
+		}
+		#bmorado{
+			border:1px #652382 solid;
+			font-size:14px;
+			font-weight:bold;
+			padding:20px 0;
+		}
+		
+		#foto2{
+			background:url(images/vuelo2.jpg) no-repeat;
+			background-size:cover;
+			padding:230px 100px ;
+			color:#FFF;
+			font-size:1em;
+			font-weight:bold;
+		}
+		
+		#verde{
+			background:#87B500;
+			padding:33px 50px;
+			font-size:1em;
+			color:#1D1D1B;
+			font-weight:bold;
+		}
+		
+		.input{
+			width:100%;
+			padding:5px 0;
+		}
+		
+		.enviar{
+			background:#BD1622;
+			padding:5px 10px;
+			float:right;
+			color:#FFF;
+			border:none;
+		}

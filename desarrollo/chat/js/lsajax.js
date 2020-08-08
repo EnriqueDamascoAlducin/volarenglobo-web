@@ -1,0 +1,12 @@
+/*======================================================================*\
+|| #################################################################### ||
+|| # Rhino 1.4                                                        # ||
+|| # ---------------------------------------------------------------- # ||
+|| # Copyright 2012 Rhino All Rights Reserved.                        # ||
+|| # This file may not be redistributed in whole or significant part. # ||
+|| #   ---------------- Rhino IS NOT FREE SOFTWARE ----------------   # ||
+|| #                 http://www.livesupportrhino.com                  # ||
+|| #################################################################### ||
+\*======================================================================*/
+
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('2 N="8";2 e="8";2 6=c.6;2 d=\'\';2 f=\'\';2 v=\'\';2 7=\'\';$(c).O(5(){$("#d").P(5(E){a(E.Q!=13){F()}})});5 R(){2 h=8;a(h)S 8;h=G;2 H=$(\'#w\').3();$(\'#w\').3("...");2 I=$(\'#d\').3();2 d=T(I);2 f=$(\'#J\').3();2 v=$(\'#U\').3();2 7=$(\'#x\').3();2 9=$.i({j:g.k+\'l/V.m\',n:"o",p:"7="+7+"&4="+d+"&K="+f+"&W="+v,q:"r"});9.s(5(4){a(4==1){L();$(\'#b\').y({z:$(\'#b\')[0].A});$(\'#d\').3("");c.6=6;e="8"}B{$(\'#b\').y({z:$(\'#b\')[0].A});$(\'#X\').C().r(4).Y(Z).D();c.6=6;e="8"}h=8;$(\'#w\').3(H)})}5 L(){2 f=$(\'#J\').3();2 7=$(\'#x\').3();2 9=$.i({j:g.k+\'l/10.m\',n:"o",p:"t="+7+"&K="+f,q:"r"});9.s(5(4){a(4){$(\'#b\').r(4)}})}5 F(){a(e=="8"){2 7=$(\'#x\').3();2 9=$.i({j:g.k+\'l/u.m\',n:"o",p:"7="+7,q:"M"});9.s(5(4){e="G"})}}5 11(t){2 9=$.i({j:g.k+\'l/12.m\',n:"o",p:"t="+t,q:"M"});9.s(5(4){a(4.14=="1"){$(\'#b\').y({z:$(\'#b\')[0].A});c.6=g.15}B{c.6=6}a(4.u=="1"){$(\'#u\').C().D().C()}B{$(\'#u\').D()}})}',62,68,'||var|val|msg|function|title|conv|false|request|if|chatOutput|document|message|utyping|uid|ls|working|ajax|url|main_url|include|php|type|GET|data|dataType|html|done|id|typing|uname|chat_s_button|convID|animate|scrollTop|scrollHeight|else|fadeIn|fadeOut|event|userTyping|true|chat_button_text|messageC|userID|userid|getInput|json|muted|ready|keypress|which|sendInput|return|encodeURIComponent|userName|insert|name|msgError|delay|3000|retrieve|setChecker|inform||newmsg|ls_submit'.split('|'),0,{}))

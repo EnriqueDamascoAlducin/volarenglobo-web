@@ -1,0 +1,1155 @@
+/* -------------------------------------------------------------------------
+
+0.	CSS Reset
+1.	Styles for Demo Site
+2.	Columns
+3.	Tabs - Type 1
+4.	Tabs - Type 2
+5.	Buttons - Type 1
+6.	Buttons - Type 2
+7.	Notification Boxes
+8.	Accordions
+9.	Testimonials
+10.	Scroll to Top
+
+-------------------------------------------------------------------------*/
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	0. CSS Reset
+/*-------------------------------------------------------------------------*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+html {
+font-size:100%;
+overflow-y:scroll;
+-webkit-text-size-adjust:100%;
+-ms-text-size-adjust:100%;
+}
+
+body {
+line-height:1;
+}
+
+body,input,textarea {
+font:12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+background:#FFF;
+color:#000;
+}
+
+.clear {clear: both}
+
+strong {font-weight: bold;}
+
+.clearfix:after {
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	1. Styles for Demo Site (not needed for web elements)
+/*-------------------------------------------------------------------------*/
+#demo-wrapper{
+width:960px;
+margin:0 auto;
+padding:60px 0;
+}
+
+.footer{
+clear:both;
+text-align:center;
+}
+
+.header, .footer{
+width:100%;
+background: url(../images/images-for-demo-site/bg-header.jpg) top left repeat-x;
+height:70px;
+}
+
+.header a, .footer a{
+color: #CCC;
+}
+
+.header a:hover, .footer a:hover{
+color: #FFF;
+}
+
+p{
+margin-bottom: 15px;
+}
+
+h2 + p, h3 + p{
+margin-top: -10px;
+}
+
+h2, h3, p, ul, ol {
+color: #222222;
+font-weight: normal;
+margin: 0 0 20px;
+}
+
+
+h2 {
+font-size: 18px;
+}
+h3 {
+font-size: 16px;
+}
+
+.intro-p {
+    border-top: 1px solid #CCC;
+    float: left;
+    margin: 10px 0 30px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.intro-p span {
+    border-bottom: 1px solid #CCC;
+    color: #444;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 25px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	2. Columns
+/*-------------------------------------------------------------------------*/
+.one_half { width: 48%; }
+.one_third { width: 30.5%; }
+.one_fourth { width: 22%; }
+.one_fifth { width: 16.8%; }
+.one_sixth { width: 13.33%; }
+.two_fifth { width: 37.6%; }
+.two_third { width: 65.33%; }
+.three_fifth { width: 58.4%; }
+.three_fourth { width: 74%; }
+.four_fifth { width: 67.2%; }
+.five_sixth { width: 82.67%; }
+
+
+
+.one_half,
+.one_third,
+.two_third,
+.three_fourth,
+.one_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.five_sixth {
+position: relative;
+margin-right: 4%;
+margin-bottom: 20px;
+float: left;
+}
+
+.column-last {
+margin-right: 0!important;
+clear: right;
+}
+
+.tabs_type_2 .one_third { width: 29%; }
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	3. Tabs - Type 1
+/*-------------------------------------------------------------------------*/
+
+.tabs_type_1 dd.current{
+display:block;
+}
+
+.tabs_type_1 {
+	width:900px;
+	height:700px;
+	box-shadow:0 0 3px #c3c3c3;
+	border-radius:10px;
+	background-color:#f8f8f8;
+	overflow:hidden;
+	position:relative;
+	margin:0;
+	left: 50px;
+}
+
+.tabs_type_1 dt {
+width:22%;
+border-bottom:1px solid #ededed;
+font-size:12px;
+font-weight:700;
+cursor:pointer;
+padding:16px 0 16px 3%;
+}
+
+.tabs_type_1 dt img {
+display:inline-block;
+margin-right:15px;
+position:relative;
+top:5px;
+}
+
+.tabs_type_1 dd {
+margin-left:25%;
+background-color:#FFF;
+height:85%;
+box-shadow:inherit;
+overflow:auto;
+position:absolute;
+top:0;
+right:0;
+display:none;
+z-index:1000;
+padding:4%;
+}
+
+.tabs_type_1 dt:first-child {
+margin-top:2.4%;
+}
+
+.tabs_type_1 dd .column_group p:first-child {
+margin-top:0;
+}
+
+.tabs_type_1_arrow {
+position:absolute;
+top:0;
+left:23%;
+z-index:1001;
+width:18px;
+height:36px;
+background-image:url(../images/tab-type1-arrow.png);
+background-repeat:no-repeat;
+}
+
+.tabs_type_1 dt.current,
+.tabs_type_2 dt.current {
+color:#FF3300;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	4. Tabs - Type 2
+/*-------------------------------------------------------------------------*/
+
+.tabs_type_2 dd.current{
+display:block;
+}
+
+.tabs_type_2 {
+position:relative;
+margin-top:40px;
+font-size:12px;
+padding-top:10px;
+height:330px;
+}
+
+.tabs_type_2 dt {
+float:left;
+margin-left:1.25%;
+margin-right:3.5%;
+cursor:pointer;
+font-weight:bold;
+}
+
+.tabs_type_2 dd {
+display:none;
+position:absolute;
+background-image:url(../images/tabs-type2-BG.png);
+background-repeat:repeat-x;
+top:50px;
+padding:30px;
+}
+
+.tabs_type_2_arrow {
+position:absolute;
+top:38px;
+z-index:1001;
+width:28px;
+height:15px;
+background-image:url(../images/arrow-up-2.png);
+background-repeat:no-repeat;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	5. Buttons - Type 1
+/*-------------------------------------------------------------------------*/
+.button_style_1, .button_style_1:hover {text-decoration: none;border: 0;display:inline-block;letter-spacing:1.2px;text-transform: uppercase;color: #DDD !important;}
+.button_style_1 span {display:block;}
+.small_button{margin:5px 10px 5px 0;padding:0 21px 0 0;font-size: .9em;background: transparent url(../images/buttons/bg-buttons-sprite.png) 100% -43px no-repeat scroll;color: #F4F4F2;}
+.small_button span{margin:0;padding:16px 0 17px 21px;line-height: 10px;background:transparent url(../images/buttons/bg-buttons-sprite.png) 0 0 no-repeat scroll;}
+
+
+.medium_button{margin:5px 10px 5px 0;padding:0 23px 0 0;font-size: 1em;background: transparent url(../images/buttons/bg-buttons-sprite.png) 100% -136px no-repeat scroll;color: #F4F4F2;}
+.medium_button span{margin:0;padding:19px 0 19px 23px;line-height: 12px;background:transparent url(../images/buttons/bg-buttons-sprite.png) 0 -86px no-repeat scroll;}
+
+
+.large_button{margin:5px 10px 5px 0;padding:0 34px 0 0;font-size: 1.1em;background: transparent url(../images/buttons/bg-buttons-sprite.png) 100% -261px no-repeat scroll;color: #F4F4F2;border:0;outline:none;cursor:pointer;}
+.large_button span{margin:0;padding:28px 0 33px 33px;line-height: 16px;background:transparent url(../images/buttons/bg-buttons-sprite.png) 0 -186px no-repeat scroll;border:0;outline:none;cursor:pointer;}
+
+
+
+/* Fire */
+.small_fire,
+.small_fire span,
+.medium_fire,
+.medium_fire span,
+.large_fire,
+.large_fire span {background-image: url(../images/buttons/bg-buttons-sprite-fire.png);}
+
+/* Autumn */
+.small_autumn,
+.small_autumn span,
+.medium_autumn,
+.medium_autumn span,
+.large_autumn,
+.large_autumn span {background-image: url(../images/buttons/bg-buttons-sprite-autumn.png);}
+
+/* Cherry */
+.small_cherry,
+.small_cherry span,
+.medium_cherry,
+.medium_cherry span,
+.large_cherry,
+.large_cherry span {background-image: url(../images/buttons/bg-buttons-sprite-cherry.png);}
+
+/* Coffee */
+.small_coffee,
+.small_coffee span,
+.medium_coffee,
+.medium_coffee span,
+.large_coffee,
+.large_coffee span {background-image: url(../images/buttons/bg-buttons-sprite-coffee.png);}
+
+/* Golden */
+.small_golden,
+.small_golden span,
+.medium_golden,
+.medium_golden span,
+.large_golden,
+.large_golden span {background-image: url(../images/buttons/bg-buttons-sprite-golden.png);}
+
+/* Pink */
+.small_pink,
+.small_pink span,
+.medium_pink,
+.medium_pink span,
+.large_pink,
+.large_pink span {background-image: url(../images/buttons/bg-buttons-sprite-pink.png);}
+
+/* Purple */
+.small_purple,
+.small_purple span,
+.medium_purple,
+.medium_purple span,
+.large_purple,
+.large_purple span {background-image: url(../images/buttons/bg-buttons-sprite-purple.png);}
+
+/* Periwinkle */
+.small_periwinkle,
+.small_periwinkle span,
+.medium_periwinkle,
+.medium_periwinkle span,
+.large_periwinkle,
+.large_periwinkle span {background-image: url(../images/buttons/bg-buttons-sprite-periwinkle.png);}
+
+/* Violet */
+.small_violet,
+.small_violet span,
+.medium_violet,
+.medium_violet span,
+.large_violet,
+.large_violet span {background-image: url(../images/buttons/bg-buttons-sprite-violet.png);}
+
+/* Sky Blue */
+.small_skyblue,
+.small_skyblue span,
+.medium_skyblue,
+.medium_skyblue span,
+.large_skyblue,
+.large_skyblue span {background-image: url(../images/buttons/bg-buttons-sprite-skyblue.png);}
+
+/* Cool Blue */
+.small_coolblue,
+.small_coolblue span,
+.medium_coolblue,
+.medium_coolblue span,
+.large_coolblue,
+.large_coolblue span {background-image: url(../images/buttons/bg-buttons-sprite-coolblue.png);}
+
+/* Royal Blue */
+.small_royalblue,
+.small_royalblue span,
+.medium_royalblue,
+.medium_royalblue span,
+.large_royalblue,
+.large_royalblue span {background-image: url(../images/buttons/bg-buttons-sprite-royalblue.png);}
+
+/* Blue Grey */
+.small_bluegrey,
+.small_bluegrey span,
+.medium_bluegrey,
+.medium_bluegrey span,
+.large_bluegrey,
+.large_bluegrey span {background-image: url(../images/buttons/bg-buttons-sprite-bluegrey.png);}
+
+/* Lime Green */
+.small_limegreen,
+.small_limegreen span,
+.medium_limegreen,
+.medium_limegreen span,
+.large_limegreen,
+.large_limegreen span {background-image: url(../images/buttons/bg-buttons-sprite-limegreen.png);}
+
+/* Forest Green */
+.small_forestgreen,
+.small_forestgreen span,
+.medium_forestgreen,
+.medium_forestgreen span,
+.large_forestgreen,
+.large_forestgreen span {background-image: url(../images/buttons/bg-buttons-sprite-forestgreen.png);}
+
+/* Teal */
+.small_teal,
+.small_teal span,
+.medium_teal,
+.medium_teal span,
+.large_teal,
+.large_teal span {background-image: url(../images/buttons/bg-buttons-sprite-teal.png);}
+
+/* Teal Grey */
+.small_tealgrey,
+.small_tealgrey span,
+.medium_tealgrey,
+.medium_tealgrey span,
+.large_tealgrey,
+.large_tealgrey span {background-image: url(../images/buttons/bg-buttons-sprite-tealgrey.png);}
+
+/* Grey */
+.small_grey,
+.small_grey span,
+.medium_grey,
+.medium_grey span,
+.large_grey,
+.large_grey span {background-image: url(../images/buttons/bg-buttons-sprite-grey.png);}
+
+/* Silver */
+.small_silver,
+.small_silver span,
+.medium_silver,
+.medium_silver span,
+.large_silver,
+.large_silver span {background-image: url(../images/buttons/bg-buttons-sprite-silver.png);color:#555 !important;}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	6. Buttons - Type 2
+/*-------------------------------------------------------------------------*/
+a.button {
+background-image: url(../images/buttons/button-sprite.png);
+text-decoration: none;
+font-size: 12px;
+font-weight: bold;
+height: 20px;
+line-height: 12px;
+margin: 0 5px 20px;
+padding: 8px 10px 0;
+border-radius: 3px;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+display: inline-block;
+}
+
+a.button.large {
+padding: 11px 10px 0;
+line-height: 14px;
+height: 24px;
+}
+
+/* Black */
+a.button.black {background-position: 0 0;
+border: 1px solid #4C4C4C;
+color: #FFF;
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+a.button.black:hover {border: 1px solid #2C2C2C;background-position: 0 -28px;}
+a.button.large.black {background-position: 0 -56px;}
+a.button.large.black:hover {background-position: 0 -91px;}
+
+
+/* Blue */
+a.button.blue {
+background-position: 0 -126px;
+border: 1px solid #8DC5DA;
+color: #42788E;
+}
+a.button.blue:hover {border: 1px solid #7CAEC0;background-position: 0 -154px;}
+a.button.large.blue {background-position: 0 -182px;}
+a.button.large.blue:hover {background-position: 0 -217px;}
+
+
+/* Green */
+a.button.green {
+background-position: 0 -252px;
+border: 1px solid #ADC671;
+color: #5D7731;
+}
+a.button.green:hover {border: 1px solid #8BB14D;background-position: 0 -280px;}
+a.button.large.green {background-position: 0 -308px;}
+a.button.large.green:hover {background-position: 0 -343px;}
+
+
+/* Grey */
+a.button.grey {
+background-position: 0 -378px;
+border: 1px solid #B5B5B5;
+color: #555;
+}
+a.button.grey:hover {border: 1px solid #989898;background-position: 0 -406px;}
+a.button.large.grey {background-position: 0 -434px;}
+a.button.large.grey:hover {background-position: 0 -469px;}
+
+
+/* Navy */
+a.button.navy {
+background-position: 0 -504px;
+border: 1px solid #A2AFB8;
+color: #515F6A;
+}
+a.button.navy:hover {border: 1px solid #8996A0;background-position: 0 -532px;}
+a.button.large.navy {background-position: 0 -560px;}
+a.button.large.navy:hover {background-position: 0 -595px;}
+
+
+/* Orange */
+a.button.orange {
+background-position: 0 -630px;
+border: 1px solid #DAB347;
+color: #835503;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+a.button.orange:hover {border: 1px solid #DAB347;background-position: 0 -658px;}
+a.button.large.orange {background-position: 0 -686px;}
+a.button.large.orange:hover {background-position: 0 -721px;}
+
+
+/* Purple */
+a.button.purple {
+background-position: 0 -756px;
+border: 1px solid #BC9DB9;
+color: #7B5777;
+}
+a.button.purple:hover {border: 1px solid #A482A0;background-position: 0 -784px;}
+a.button.large.purple {background-position: 0 -812px;}
+a.button.large.purple:hover {background-position: 0 -847px;}
+
+
+/* Red */
+a.button.red {
+background-position: 0 -882px;
+border: 1px solid #DF6F8B;
+color: #913944;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+a.button.red:hover {border: 1px solid #C36079;background-position: 0 -910px;}
+a.button.large.red {background-position: 0 -938px;}
+a.button.large.red:hover {background-position: 0 -973px;}
+
+
+/* Teal */
+a.button.teal {
+background-position: 0 -1008px;
+border: 1px solid #90C6C8;
+color: #437B7D;
+}
+a.button.teal:hover {border: 1px solid #7DB9BB;background-position: 0 -1036px;}
+a.button.large.teal {background-position: 0 -1064px;}
+a.button.large.teal:hover {background-position: 0 -1099px;}
+
+
+/* White */
+a.button.white {
+background-position: 0 -1134px;
+border: 1px solid #D3D3D3;
+color: #555;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+a.button.white:hover {border: 1px solid #C4C4C4;background-position: 0 -1162px;}
+a.button.large.white {background-position: 0 -1190px;}
+a.button.large.white:hover {background-position: 0 -1225px;}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	7. Notification Boxes
+/*-------------------------------------------------------------------------*/
+.message_green,
+.message_red,
+.message_blue,
+.message_yellow{
+color: #333333;
+margin: 0 0 20px;
+padding: 20px 20px 20px 60px;
+		border-radius: 5px;
+-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+}
+
+.message_green {
+background: url(../images/notification-green.gif) no-repeat scroll 20px center #DFE9B7;
+border: 1px solid #BAC398;
+}
+.message_red {
+background: url(../images/notification-red.gif) no-repeat scroll 20px center #F5DCD8;
+border: 1px solid #CDBFBE;
+}
+.message_blue {
+background: url(../images/notification-blue.gif) no-repeat scroll 20px center #DAE6F2;
+border: 1px solid #BDC4CA;
+}
+.message_yellow {
+background: url(../images/notification-yellow.gif) no-repeat scroll 20px center #F8F2B6;
+border: 1px solid #D8D4B7;
+}
+
+.message_green a {
+color: #66B500;
+font-weight: bold;
+}
+.message_red a {
+color: #CB2A19;
+font-weight: bold;
+}
+.message_blue a {
+color: #0092F5;
+font-weight: bold;
+}
+.message_yellow a {
+color: #A58100;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	8. Accordions
+/*-------------------------------------------------------------------------*/
+
+.accordion dd.current {
+display:block;
+}
+
+.accordion {
+font-size:13px;
+margin-left:0;
+}
+
+.accordion dt {
+width:92%;
+border:1px solid #e9e9e9;
+border-radius:5px;
+margin-bottom:4px;
+font-weight:500;
+background-image:url(../images/accordion-BG.png);
+background-position:bottom left;
+background-repeat:repeat-x;
+position:relative;
+cursor:pointer;
+padding:20px 20px 20px 50px;
+}
+
+#content .one_third .accordion dt {
+width:74%;
+}
+
+#content-sub .one_third .accordion dt {
+width:63%;
+}
+
+.accordion dd {
+display:none;
+padding:0 11px;
+margin-bottom:0;
+}
+
+.accordion dd p:first-child {
+margin-top:8px;
+}
+
+.accordion dt:before {
+content:url(../images/accordion-plus-sign.png);
+position:absolute;
+left:15px;
+top:50%;
+margin-top:-12px;
+}
+
+.accordion dt.current:before {
+content:url(../images/accordion-minus-sign.png);
+}
+
+.one_half .accordion dt {
+width:83%;
+}
+
+.one_third .accordion dt {
+width:74%;
+}
+
+.one_fourth .accordion dt {
+width:65%;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	9. Testimonials
+/*-------------------------------------------------------------------------*/
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+content: none;
+}
+
+.testimonial{
+padding-bottom:20px;
+}
+
+.testimonial strong{
+font-size: 11px;
+}
+
+.testimonial blockquote{
+padding-left: 36px;
+position: relative;
+}
+
+.testimonial blockquote p{
+margin-bottom:6px;
+}
+
+.testimonial blockquote:before{
+content: url(../images/testimonial-quotes.png);
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.testimonial blockquote {
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#7b7b7b;
+font-style:italic;
+}
+
+.client_identity{
+margin-left: 36px;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	10. Scroll to Top
+/*-------------------------------------------------------------------------*/
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop.html) no-repeat left top;
+}
+
+#toTopHover {
+	background:url(../images/ui.totop.html) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	11. Mini Icons
+/*-------------------------------------------------------------------------*/
+.icon-content, .icon-header {
+padding-left:45px;
+}
+
+.icon-header{
+margin-bottom:5px;
+font-size:15px;
+font-weight:500;
+color:#555;
+}
+
+.icon-content{
+color:#777;
+}
+
+.address_book{
+background: url(../images/icons/address_book.png) -2px -2px no-repeat;
+}
+
+.alert{
+background: url(../images/icons/alert.png) -2px -2px no-repeat;
+}
+
+.announcement{
+background: url(../images/icons/announcement.png) -2px -2px no-repeat;
+}
+
+.calendar{
+background: url(../images/icons/calendar.png) -2px -2px no-repeat;
+}
+
+.cog{
+background: url(../images/icons/cog.png) -2px -2px no-repeat;
+}
+
+.comments{
+background: url(../images/icons/comments.png) -2px -2px no-repeat;
+}
+
+.download{
+background: url(../images/icons/download.png) -2px -2px no-repeat;
+}
+
+.edit{
+background: url(../images/icons/edit.png) -2px -2px no-repeat;
+}
+
+.email{
+background: url(../images/icons/email.png) -2px -2px no-repeat;
+}
+
+.file{
+background: url(../images/icons/file.png) -2px -2px no-repeat;
+}
+
+.home{
+background: url(../images/icons/home.png) -2px -2px no-repeat;
+}
+
+.info{
+background: url(../images/icons/info.png) -2px -2px no-repeat;
+}
+
+.movie{
+background: url(../images/icons/movie.png) -2px -2px no-repeat;
+}
+
+.page-layout{
+background: url(../images/icons/page-layout.png) -2px -2px no-repeat;
+}
+
+.pencil{
+background: url(../images/icons/pencil.png) -2px -2px no-repeat;
+}
+
+.pictures{
+background: url(../images/icons/pictures.png) -2px -2px no-repeat;
+}
+
+.restart{
+background: url(../images/icons/restart.png) -2px -2px no-repeat;
+}
+
+.settings{
+background: url(../images/icons/settings.png) -2px -2px no-repeat;
+}
+
+.support{
+background: url(../images/icons/support.png) -2px -2px no-repeat;
+}
+
+.tags{
+background: url(../images/icons/tags.png) -2px -2px no-repeat;
+}
+
+.upload{
+background: url(../images/icons/upload.png) -2px -2px no-repeat;
+}
+
+.users{
+background: url(../images/icons/users.png) -2px -2px no-repeat;
+}
+
+.v-card{
+background: url(../images/icons/v_card.png) -2px -2px no-repeat;
+}
+
+.zoom{
+background: url(../images/icons/zoom.png) -2px -2px no-repeat;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	12. Breadcrumbs
+/*-------------------------------------------------------------------------*/
+#breadcrumb-1, #breadcrumb-2{
+font: 11px Arial, Helvetica, sans-serif;
+background:url(../images/breadcrumbs-1-bg.png) 0 0 repeat-x;
+height:30px;
+line-height:30px;
+color:#9b9b9b;
+border:solid 1px #cacaca;
+width:100%;
+overflow:hidden;
+margin:0px;
+padding:0px;
+}
+
+#breadcrumb-1 li.current{
+color:#9b9b9b;
+}
+
+#breadcrumb-1 li, #breadcrumb-2 li{
+list-style-type:none;
+float:left;
+padding-left:10px;
+}
+
+#breadcrumb-1 a{
+height:30px;
+display:block;
+background:url(../images/breadcrumbs-1-separator.png) top right no-repeat;
+padding-right: 15px;
+text-decoration: none;
+color:#454545;
+}
+
+#breadcrumb-1 a:hover, #breadcrumb-2 a:hover{
+color:#01C3FD;
+}
+
+#breadcrumb-2 li.current{
+color:#01C3FD;
+}
+
+#breadcrumb-2{
+background:#2C3037 url(../images/breadcrumbs-2-bg.png) 0 0 repeat-x;
+border:solid 1px #2D3238;
+height:33px;
+}
+
+#breadcrumb-2 a{
+height:33px;
+display:block;
+background:url(../images/breadcrumbs-2-separator.png) top right no-repeat;
+padding-right: 15px;
+text-decoration: none;
+color:#909EB2;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------*/
+/*	13. Callout Boxes
+/*-------------------------------------------------------------------------*/
+.product_callout {
+border-radius:10px 10px 10px 10px;
+padding:30px 35px;
+position:relative;
+}
+
+.product_callout p {
+font-size:14px;
+margin-right:115px;
+margin-top:0;
+line-height:22px;
+}
+
+.product_callout h3 {
+font-weight:300;
+margin-bottom:10px;
+font-size:23px;
+}
+
+.product_callout .button {
+margin-top:-20px;
+position:absolute;
+right:35px;
+top:50%;
+}
+
+.callout_light{
+background: url(../images/callout-bg-light.png) left bottom repeat-x;
+border:1px solid #EEE;
+}
+
+.callout_dark{
+background: #555555 url(../images/callout-bg-dark.png) left bottom repeat-x;
+border:1px solid #555;
+}
+
+.callout_dark h3, .callout_dark p{
+color:#FFF;
+}
+
+
+/*******************
+	-	CONTENT	-	
+*******************/	
+/* Centered Container for all Content*/
+#content_wrap{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 30px;
+	z-index:5;
+	position:relative;
+}
+
+.example-wrapper{
+	position:relative;
+	z-index:4;
+	width:920px;
+	margin:auto;
+	border:1px solid #e6e6e6;	
+	background: transparent url('../megafolio/assets/white50.png') repeat center top;
+	padding:30px;
+	margin-bottom:120px;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+	box-shadow: 0px 0px 5px 1px rgba(100,100,100,0.1);
+}
+
+#products{
+	width:920px;
+	height:auto;
+	position:relative;		
+}
+
+h3{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom:30px;
+	color: #333;
+	line-height: 25px;
+}

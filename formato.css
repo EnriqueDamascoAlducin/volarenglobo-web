@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.back_menu {
+	background-image: url(imagenes_contenido/back_menu_1.jpg);
+}
+.back_chat {
+	background-image: url(imagenes_contenido/back_chat.jpg);
+	background-repeat: repeat-x;
+	width: 40px;
+	padding-top: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	text-align: left;
+}
+.anuncio1_back {
+	background-image: url(imagenes_contenido/anuncio1.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 50px;
+}
+.anuncio2_back {
+	background-image: url(imagenes_contenido/anuncio2.jpg);
+	background-repeat: no-repeat;
+}
+.back_bottom {
+	background-image: url(imagenes_contenido/menu_bottom/final.jpg);
+	background-repeat: no-repeat;
+	height: 158px;
+	width: 1000px;
+}
+.txt_index_anuncio1_titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+}
+.txt_index_anuncio1_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #063;
+	text-decoration: none;
+	text-align: justify;
+}
+.txt_index_anuncio2_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+}
+.bottom_tel { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #FFF; text-decoration: none; text-align: left; font-weight: normal; }
+.bottom_tit { font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: bold; text-transform: uppercase; color: #FFF; text-decoration: none; text-align: left; }
+.bottom_tit a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+}
+
+.bottom_tit a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+}
+
+.cont_index_tit_1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+}
+.cont_index_tit_2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+}
+.cont_index_txt_gris_1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+	text-align: justify;
+}
+.txt_menu_telefonos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+	text-align: right;
+}
+.txt_menu_telefonos_naranja {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: none;
+	text-align: right;
+}
+.img_index_fondodehistoria {
+	background-image: url(imagenes_contenido/volar_en_globo_logo_2.jpg);
+	background-repeat: no-repeat;
+}
+.bottom_txt_derechos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+	text-decoration: none;
+}
+.tipos_back_titulo {
+	background-image: url(imagenes_contenido/back_tipos_de_vuelo.jpg);
+	background-repeat: no-repeat;
+}
+.tipos_titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 80px;
+}
+.tipos_bubtitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 80px;
+}
+.index_txt_brujula {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #007AB7;
+	text-decoration: none;
+	text-align: justify;
+}
+.index_tit_3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #069;
+	text-decoration: none;
+}
+.tipos_subtit_volarenglobo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F90;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 1px;
+}
+.tipos_nombre_vuelo_resaltado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: none;
+}
+.tipos_titulo_pestana {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #F00;
+	text-decoration: none;
+}
+.tipos_txt_paquete_descripcion_gris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #639;
+	text-decoration: none;
+	text-align: justify;
+}
+.tipos_nombre_vuelo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+	text-align: justify;
+}
+.tipos_txt_teofrecemos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #606;
+	text-decoration: none;
+}
+.tipos_txt_paquete_normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #555;
+	font-size: 12px;
+	text-decoration: none;
+}
+.top_deseasasistencia {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666;
+	text-decoration: none;
+}
+.contacto_titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #036;
+	text-decoration: none;
+}
+.contacto_texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	color: #F60;
+	text-decoration: none;
+	font-style: normal;
+}
+.contacto_titulo_small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #09C;
+	text-decoration: none;
+}

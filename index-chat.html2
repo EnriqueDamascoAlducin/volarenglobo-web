@@ -1,0 +1,945 @@
+<!doctype html>
+
+
+<html lang="es" class="no-js">
+<head>
+	<title>Vuelos en Globo Aerostatico | Volar en Globo</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">	
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.migrate.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/plugins-scroll.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-38420242-1', 'auto');
+
+  ga('send', 'pageview');
+
+
+
+</script>
+</head>
+<body>
+
+	<!-- Container -->
+	<div id="container">
+		<!-- Header
+		    ================================================== -->
+		<header class="clearfix">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="top-line">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10">
+								<p>
+									<span><i class="fa fa-phone"></i>Multilínea (55) 12 09 21 60 &nbsp;<i class="fa fa-envelope-o"></i>ventas@volarenglobo.com.mx &middot; reserva@volarenglobo.com.mx </span>
+									<!--<span><i class="fa fa-envelope-o">ventas@volarenglobo.com.mx,reserva@volarenglobo.com.mx</i></span>-->
+                                    <!--<span><i class="fa fa-envelope-o"></i>reserva@volarenglobo.com.mx</span>-->
+								</p>
+							</div>	
+							<div class="col-md-2">
+								<ul class="social-icons">
+                                
+									<li><a class="facebook" href="https://www.facebook.com/pages/Volar-en-Globo/151095734961435"><i class="fa fa-facebook"></i></a></li>
+									<li><a class="twitter" href="https://twitter.com/volarenglobo"><i class="fa fa-twitter"></i></a></li>
+									<!--<li><a class="google" href="#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a class="pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>-->
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="index.html"><img src="images/volar-en-globlo-logo_3.gif" alt="logo volar en globo"></a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="drop"><a class="active" href="index.html">Volar en Globo</a></li>
+							<li class="drop"><a href="#">Tipos de Vuelo</a>
+								<ul class="dropdown">
+									<li><a href="paquetes-vuelo-en-globo-privado.html">Vuelo Privado</a></li>
+									<li><a href="paquetes-vuelo-en-globo-compartido.html">Vuelo Compartido</a></li>
+									<!--<li><a href="vuelo-en-globo-vip.html">Vuelo VIP</a></li>-->
+								</ul>
+							</li>
+							<li><a href="plan-de-vuelo-en-globo.html">COMO ES EL SUEÑO?</a></li>
+							<li><a href="galeria.html">Galería</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+							<li><a href="/tienda">Tienda Volar</a></li>
+							<!--<li class="search drop"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
+								<form class="form-search">
+									<input type="search" placeholder="Search:"/>
+									<button type="submit">
+										<i class="fa fa-search"></i>
+									</button>
+								</form>
+							</li>-->
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			</nav>
+		</header>
+		<!-- End Header -->
+
+		<!-- home-section 
+			================================================== -->
+		<section id="home-section" class="slider1">
+			
+			<!--
+			#################################
+				- THEMEPUNCH BANNER -
+			#################################
+			-->
+			<div class="tp-banner-container">
+				<div class="tp-banner" >
+					<ul>	<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
+							<!-- MAIN IMAGE -->
+							<img src="images/slide/vuelo-globos-aerostaticos.jpg"  alt="vuelo en globo aerostático" data-lazyload="images/slide/vuelo-globos-aerostaticos.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="280" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1200"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Vuela En Globo Por<br><span> Teotihuacán</span> <br>
+							</div>
+
+							<!-- LAYER NR. 2 finewide_medium_white-->
+							<div class="tp-caption  small_text customin  lfl  tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="400" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.1"
+								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Vive Una Emocionante Aventura
+							</div>
+                            
+                            <!--  layer fer small_text -->
+                            
+                            <div class="tp-caption large_text customin tp-resizeme rs-parallaxlevel-0 backgroun-col"
+								data-x="0"
+								data-y="450" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.1"
+								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">¡Reserva tu lugar hoy mismo! (55) 12 09 21 60
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="550" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2400"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='galeria.html' class='trans-btn'>Galería</a>
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfr tp-resizeme rs-parallaxlevel-0"
+								data-x="200"
+								data-y="550" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2500"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='/tienda' class='trans-btn2'>Reservar Ahora</a>
+							</div>
+                            
+                            <!-- layer nr 5 -->
+                            
+                           
+                            
+                            <!-- layer nr 5 -->
+
+						</li>
+
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on"  data-title="Ken Burns Slide">
+							<!-- MAIN IMAGE -->
+							<img src="images/dummy.png"  alt="inflando vuelo en globo" data-lazyload="images/slide/inflando-vuelo-en-globo.jpg" data-bgposition="right top" data-kenburns="on" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1  small_text -->
+							<div class="tp-caption medium_text customin tp-resizeme rs-parallaxlevel-0"
+								data-x="40"
+								data-y="310" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1200"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.1"
+								style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">Una experiencia inolvidable
+							</div>
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="160"
+								data-y="358" 
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.05"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">¡Vive tu sueño en Globo!
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption finewide_medium_white lfr tp-resizeme rs-parallaxlevel-0"
+								data-x="185"
+								data-y="412" 
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><span>No lo pienses mas </span>
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0"
+								data-x="470"
+								data-y="505"
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2400"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='/tienda' class='trans-btn'>Reserva tu Lugar</a>
+							</div>
+                            
+                            <!-- layer 6 fr -->
+                            <div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="185"
+								data-y="555"
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2400"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;">Reserva  (55) 12 09 21 60
+							</div>
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on"  data-title="Parallax 3D">
+							<!-- MAIN IMAGE -->
+							<img src="images/slide/vuelo-en-globo-noche.jpg"  alt="vuelo en globo de noche" data-lazyload="images/slide/vuelo-en-globo-noche.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="280" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1200"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								style="z-index: 8; max-width: auto; max-height: auto; white-space: nowrap;"><span>Vuelo para</span> Grupos<br>
+							</div>
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption small_text customin tp-resizeme rs-parallaxlevel-0 backgroun-col"
+								data-x="0"
+								data-y="350" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.1"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Ideal para encuentros familiares o de amigos, integración de grupos de trabajo, <br>complemento para actividades de excursiones y turismo, actividades <br>empresariales o cortesías a tus clientes, socios y empleados importantes.<br>
+                                Llámanos  (55) 12 09 21 60 
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="490" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2400"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='vuelo-compartido-tradicional.html' class='trans-btn'>Detalles</a>
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfr tp-resizeme rs-parallaxlevel-0"
+								data-x="200"
+								data-y="490" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2500"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><a href='/tienda/tipos-de-vuelo/compartido-basico/' class='trans-btn2'>Reservar Ahora</a>
+							</div>
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
+							<!-- MAIN IMAGE -->
+							<img src="images/slide/vuelo-globos-aerostaticos.jpg"  alt="vuelo en globo aerostático" data-lazyload="images/slide/vuelo-en-globo-piramides.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="280" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1200"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">No Necesitas Alas<br><span>Para Volar En Globo</span> <br>
+							</div>
+
+							<!-- LAYER NR. 2 small_Text -->
+							<div class="tp-caption large_text customin tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="400" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.1"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">No vendemos promesas compartimos Sueños. <br> Teléfono (55) 12 09 21 60
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="510" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2400"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 10; max-width: auto; max-height: auto; white-space: nowrap;"><a href='/tienda' class='trans-btn'>Reservaciones</a>
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfr tp-resizeme rs-parallaxlevel-0"
+								data-x="200"
+								data-y="510" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2500"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><!--<a href='reservar-vuelo-en-globo.html' class='trans-btn2'>COMPRAMEEEEEE</a>-->
+							</div>
+
+						</li>
+						<!-- SLIDE  -->
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="2000" data-saveperformance="on"  data-title="Ken Burns Slide">
+							<!-- MAIN IMAGE -->
+							<img src="images/dummy.png"  alt="inflando vuelo en globo" data-lazyload="images/slide/paseo-en-globo-teotihuacan.jpg" data-bgposition="right top" data-kenburns="on" data-duration="12000" data-ease="Power0.easeInOut" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center bottom">
+							<!-- LAYERS -->
+
+							<!-- LAYER NR. 1 -->
+							<div class="tp-caption medium_text customin tp-resizeme rs-parallaxlevel-0"
+								data-x="270"
+								data-y="310" 
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="1200"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.1"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">Nuestra cualidad es  la calidad en el servicio
+							</div>
+
+							<!-- LAYER NR. 2 -->
+							<div class="tp-caption finewide_medium_white lfl tp-resizeme rs-parallaxlevel-0"
+								data-x="0"
+								data-y="358" 
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.05"
+								data-endelementdelay="0.05"
+								style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"> ¡Si puedes soñarlo <br><span> puedes vivirlo!</span><br> Reserva  (55) 12 09 21 60
+							</div>
+
+							<!-- LAYER NR. 3 -->
+							<div class="tp-caption finewide_medium_white lfr tp-resizeme rs-parallaxlevel-0"
+								data-x="185"
+								data-y="412" 
+								data-speed="500"
+								data-start="1800"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;">
+							</div>
+
+							<!-- LAYER NR. 4 -->
+							<div class="tp-caption lfb tp-resizeme rs-parallaxlevel-0"
+								data-x="470"
+								data-y="525"
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="500"
+								data-start="2400"
+								data-easing="Power3.easeInOut"
+								data-splitin="none"
+								data-splitout="none"
+								data-elementdelay="0.1"
+								data-endelementdelay="0.1"
+								data-linktoslide="next"
+								style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><a href='galeria.html' class='trans-btn'>Galeria</a>
+							</div>
+						</li>
+					</ul>
+					<div class="tp-bannertimer"></div>
+				</div>
+			</div>
+		</section>
+		<!-- End home section -->
+
+		<!-- banner-section 
+			================================================== -->
+		<section class="banner-section">
+			<div class="container">
+				<h2>¿Necesitas asistencia o mayor Información?<a href="javascript:void(Tawk_API.toggle())" class="button-one">chat en vivo</a></h2>
+                
+			</div>
+            
+		</section>
+		<!-- End banner section -->
+
+		<!-- video section
+			================================================== -->
+		<section class="about-section2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h2>VOLAR EN GLOBO</h2>
+						<p>Vuela en globo sobre Teotihuacán y disfruta de un paisaje fascinante y único en el mundo.</p>
+						<p>Te ofrecemos una experiencia inolvidable disfrutando con tus amigos, familiares o seres queridos la belleza de uno de los sitios arqueológicos mas visitados en el mundo.</p>
+                        <p>Nada comparado a un vuelo en globo, subir al cielo y viajar libre con el viento, es una tradición que se realiza hace más de dos siglos con las misma ¡ MAGIA Y AVENTURA </p>
+                        <p>Nuestro compromiso es que tu sueño se cumpla como lo soñaste!</p>
+                        <br>
+                        <h2>CONTAMOS CON SISTEMA DE PAGO PAYPAL.</h2>
+                        
+                        <!--<div class="row"><img src="images/volar-en-globlo-logo.gif" alt="" width="60" height="79"> &nbsp; <img src="images/paypal.png" alt="" width="150" height="77"></div>-->
+                        <h3>Llama Ahora (55) 12 09 21 60 </h3>  <h3>ventas@volarenglobo.com.mx reserva@volarenglobo.com.mx</h3>
+					</div>
+					<div class="col-md-6">
+						<!-- youtube -->
+						<iframe class="videoembed" src="https://www.youtube.com/embed/kgIPKRy2uE4?rel=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-devanime="fadeIn" data-devanime-delay="0.6s"></iframe>
+						<!-- End youtube -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End video section -->
+
+		<!-- about section 
+			================================================== -->
+		<section class="about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/vuelo-en-globo-teotihuacan.jpg" alt="vuelo en globo por teotihuacan">
+						<h2>Volamos sobre el valle de Teotihuacán</h2>
+						<p>En horas de la mañana, nos encontramos en un hotel de la región donde nuestro personal te recibirá y te darán instrucciones para continuar la actividad, en este proceso debes hacer el registro y nosotros nos encargamos de llevarte al lugar donde la tripulación estará preparando tu globo.</p>
+						<p>Allí puedes tomar fotos o hacer videos, es muy divertido ver como inicia todo el proceso y sabemos que para ti va a ser una actividad sorprendente.</p>
+					</div>
+					<div class="col-md-6">
+
+						<!-- Nav tabs -->
+						<div class="tab-posts-box">
+							<ul class="nav nav-tabs" id="myTab">
+								<li class="active">
+									<a href="#option1" data-toggle="tab">¿Como Funciona?</a>
+								</li>
+								<li>
+									<a href="#option2" data-toggle="tab">Algo de Historia</a>
+								</li>
+								<li>
+									<a href="#option3" data-toggle="tab">¿Sabias Que?</a>
+								</li>
+							</ul>
+
+							<div class="tab-content">
+								<div class="tab-pane active" id="option1">
+									<img src="images/globo-aerostatico.jpg" alt="Globo Aerostatico">
+									<h3>¿Como Funciona un Globo Aerostático?</h3>
+									<p>Los globos aerostáticos son naves no propulsadas compuestas de una bolsa que encierra una masa de gas que es mas ligero que el aire lo cual permite que este se eleve</p>
+								</div>
+								<div class="tab-pane" id="option2">
+									<img src="images/historia-vuelos-en-globo.jpg" alt="Historia del Globo Aerostatico">
+									<h3>Historia del Globo Aerostático</h3>
+									<p>La Historia de los Globos Aerostáticos se remonta al sigo XVIII en Francia donde los hermanos Montgolfier construyeron un globo de papel. Al emplear un gas mucho más ligero que el aire, consiguieron que éste se elevara en su primer vuelo hasta los 500 mts.</p>
+								</div>
+								<div class="tab-pane" id="option3">
+									<img src="images/globos-en-fila.jpg" alt="Globos Aerostaticos en fila">
+									<h3>¿Sabias Que?</h3>
+									<p>Los Globos Aerostáticos son las aeronaves más antiguas y seguras que existen, en realidad los Globos no vuelan ¡Flotan con el Viento!</p>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion-box">
+							<div class="accord-elem active">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>¿Es seguro Viajar en Globo?</h2>
+								</div>
+								<div class="accord-content">
+									<p>Los Globos Aerostáticos son las aeronaves más antiguas y seguras que existen.</p>
+								</div>
+							</div>
+
+							<div class="accord-elem">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>¿Cuanto dura un Viaje en Globo? </h2>
+								</div>
+								<div class="accord-content">
+									<p>La aventura comienza muy temprano con la cita en nuestra recepción, procedemos a realizar un registro y minutos más tarde los pasajeros son trasladados al lugar de despegue, la experiencia dura entre 2 y 3 hrs. desde el inflado del globo hasta el aterrizaje.</p>
+								</div>
+							</div>
+
+							<div class="accord-elem">
+								<div class="accord-title">
+									<a class="accord-link" href="#"></a>
+									<h2>¿Como debo ir vestido? </h2>
+								</div>
+								<div class="accord-content">
+									<p>Preferentemente con ropa comoda y abrigadora.</p>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End about section -->
+
+		<!-- testimonial-section 
+			================================================== -->
+		<section class="testimonial-section">
+			<div class="container">
+
+				<div class="title-section">
+					<h1>Que dicen Nuestros <span>Clientes</span></h1>
+				</div>
+
+				<div class="testimonial-box">
+					<ul class="bxslider">
+						<li>
+							<h2>Diego A. Ochoa Gómez</h2>
+							<br>
+							<p>Fue un sueño ¡Literal! agradecido de por vida, el piloto Sergio Ramírez lo mejor de lo mejor.<br> La mejor historia de mi vida.</p>
+						</li>
+						<li>
+							<h2>Luis Arturo Saavedra</h2>
+							<br>
+							<p>Estuvo increíble¡¡ Su atención al cliente y su trato es el mejor. Sigan así y van a ser la mejor empresa de globos¡¡ <br>Teresa Delgado es una gran persona. Kirby el mejor piloto. Gracias por esta experiencia¡.</p>
+						</li>
+						<li>
+							<h2>Nataly González</h2>
+							<br>
+							<p>Excelente grupo de personas, seres de luz demuestran confianza, seguridad y entrega a su trabajo.</p>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</section>
+		<!-- End testimonial section -->
+
+			<!-- projects 
+			================================================== -->
+		<section class="projects-section">
+			<div class="container">
+				<div class="project-title">
+					<h2>Nada comparado a un vuelo en globo</h2>
+					<p>Subir al cielo y viajar libre con el viento, es una tradición que se realiza hace más de dos siglos con la misma <strong>¡ MAGIA Y AVENTURA !</strong></p>
+				</div>
+				<div class="project-box iso-call">
+					<div class="project-post buildings isolation">
+						<img src="vuelos/vuelo-piramides.jpg" alt="">
+						<div class="hover-box">
+							<h2>Sobrevolando Teotihuacan</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+					<!--<div class="project-post interior">
+						<img src="vuelos/inflando-globo.jpg" alt="">
+						<div class="hover-box">
+							<h2>Preparando el Viaje</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>-->
+					<div class="project-post buildings isolation">
+						<img src="vuelos/vuelo-globo-atardecer.jpg" alt="">
+						<div class="hover-box">
+							<h2>Volando al Amanecer</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+					<div class="project-post buildings">
+						<img src="vuelos/festejando-vuelo.jpg" alt="">
+						<div class="hover-box">
+							<h2>Champagne para Festejar</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+					<div class="project-post interior isolation">
+						<img src="vuelos/volando-en-globo.jpg" alt="">
+						<div class="hover-box">
+							<h2>Volando en Globo</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+					<div class="project-post energy">
+						<img src="vuelos/entrega-anillo-globo.jpg" alt="">
+						<div class="hover-box">
+							<h2>Propuesta de Matrimonio</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+					<div class="project-post buildings">
+						<img src="vuelos/vuelo-globo-aerostatico.jpg" alt="">
+						<div class="hover-box">
+							<h2>Vuelo en Globo</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+					<div class="project-post isolation">
+						<img src="vuelos/canasta-globo.jpg" alt="">
+						<div class="hover-box">
+							<h2>Sonrisas Invaluables</h2>
+							<span>VolarEnGlobo.com.mx</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End projects -->
+
+		<!-- footer 
+			================================================== -->
+		<footer>
+			<div class="up-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="footer-widget">
+								<h2>Volar en Globo, Aventura y Publicidad.</h2>
+								<img src="images/volar-en-globlo-logo.gif" alt="">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="footer-widget">
+								<h2>Tags</h2>
+								<ul class="tag-list">
+									<li><a href="#">Vuelo en Globo</a></li>
+									<li><a href="#">Tipos de Vuelo</a></li>
+									<li><a href="#">Globos Aerostaticos</a></li>
+									<li><a href="#">Globo Publicitario</a></li>
+									<li><a href="#">Vuelo Especial</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="footer-widget">
+								<h2>Galería de Fotos</h2>
+								<ul class="flickr">
+									<li><a href="galeria.html"><img src="images/galeria/paisaje1_280x210.jpg" alt=""></a></li>
+									<li><a href="galeria.html"><img src="images/galeria/aterrizaje-en-globo1_280x210.jpg" alt=""></a></li>
+									<li><a href="galeria.html"><img src="images/galeria/vuelo-en-globo1_280x210.jpg" alt=""></a></li>
+									<li><a href="galeria.html"><img src="images/galeria/amanecer1_280x210.jpg" alt=""></a></li>
+									<li><a href="galeria.html"><img src="images/galeria/amanecer2_280x210.jpg" alt=""></a></li>
+									<li><a href="galeria.html"><img src="images/galeria/aterrizaje-en-globo2_280x210.jpg" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="footer-widget info-widget">
+								<h2>Contáctanos</h2>
+								<!--<p class="first-par">Lun-Vie 9 a 18 hrs, Sabado 9 a 15 hrs</p>-->
+								<p><span>Tel Multilínea: </span> (55) 12 09 21 60</span>
+								<p><span>Email: </span> ventas@volarenglobo.com.mx / reserva@volarenglobo.com.mx</p>
+								<!--<p class="first-par">Noches, fines de semana y festivos.</p>
+                                <p><span>Tel: </span>(55) 51016910 / (55) 58706611</p>-->
+                                <p><h2>¡Contrata Ya!</h2></p>
+                                 
+                                   <p><a href="http://www.siempreenlasnubes.com" target="_blank" rel="nofollow" >¿Quieres Volar en España?</a></p>
+							<p><a href="http://volarenglobo.com.mx/Aviso_de_privacidad_VGAP.pdf" target="_blank" rel="nofollow" >Aviso de Privacidad</a></p>
+    						    
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="copyright">
+				&copy; VOLAR EN GLOBO, AVENTURA Y PUBLICIDAD Todos los derechos reservados 2013 
+			</p> 
+		</footer>
+		<!-- End footer -->
+
+	</div>
+	<!-- End Container -->
+
+	<!-- Revolution slider -->
+	<script type="text/javascript">
+
+		jQuery(document).ready(function() {
+						
+			jQuery('.tp-banner').show().revolution(
+			{
+				dottedOverlay:"none",
+				delay:10000,
+				startwidth:1140,
+				startheight:700,
+				hideThumbs:200,
+				
+				thumbWidth:100,
+				thumbHeight:50,
+				thumbAmount:5,
+				
+				navigationType:"bullet",
+				navigationArrows:"none",
+				
+				touchenabled:"on",
+				onHoverStop:"off",
+				
+				swipe_velocity: 0.7,
+				swipe_min_touches: 1,
+				swipe_max_touches: 1,
+				drag_block_vertical: false,
+										
+										parallax:"mouse",
+				parallaxBgFreeze:"on",
+				parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+										
+				keyboardNavigation:"off",
+				
+				navigationHAlign:"center",
+				navigationVAlign:"bottom",
+				navigationHOffset:0,
+				navigationVOffset:40,
+						
+				shadow:0,
+
+				spinner:"spinner4",
+				
+				stopLoop:"off",
+				stopAfterLoops:-1,
+				stopAtSlide:-1,
+
+				shuffle:"off",
+				
+				autoHeight:"off",						
+				forceFullWidth:"off",						
+										
+										
+										
+				hideThumbsOnMobile:"off",
+				hideNavDelayOnMobile:1500,						
+				hideBulletsOnMobile:"off",
+				hideArrowsOnMobile:"off",
+				hideThumbsUnderResolution:0,
+				
+				hideSliderAtLimit:0,
+				hideCaptionAtLimit:0,
+				hideAllCaptionAtLilmit:0,
+				startWithSlide:0,
+				fullScreenOffsetContainer: ".header"	
+			});
+							
+		});	//ready
+		
+	</script>
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5aaaf4a8d7591465c7089bba/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--Start of tawk.to Status Code-->
+
+<script type="text/javascript">
+Tawk_API = Tawk_API || {};
+Tawk_API.onStatusChange = function (status){
+if(status === 'online')
+{
+document.getElementById('status').innerHTML = '<a href="javascript:void(Tawk_API.toggle())">Online - Click to chat</a>';
+}
+else if(status === 'away')
+{
+document.getElementById('status').innerHTML = 'We are currently away';
+}
+else if(status === 'offline')
+{
+document.getElementById('status').innerHTML = 'Live chat is Offline';
+}
+};
+</script>
+
+<!--End of tawk.to Status Code -->
+<!--End of Tawk.to Script-->
+
+
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "volarenglobomex", // Facebook page ID
+            whatsapp: "+5215524900000", // WhatsApp number
+            email: "ventas@volarenglobo.com.mx", // Email
+            call: "5512092160", // Call phone number
+            company_logo_url: "//volarenglobo.com.mx/images/volar-en-globlo-logo_3.gif", // URL of company logo (png, jpg, gif)
+            greeting_message: "¿Necesitas asistencia o mayor Información?", // Text of greeting message
+            call_to_action: "Chat en Linea", // Call to action
+            button_color: "#A8CE50", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp,email,call" // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+</body>
+</html>
