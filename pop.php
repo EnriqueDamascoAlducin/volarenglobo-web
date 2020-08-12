@@ -250,7 +250,7 @@ if(isset($_POST['AgregarUsuario'])){
 		
 		}
 		
-		echo"<script>alert('el Usuario ".$_POST['name_comp']." se ha ingresado ');opener.location.reload();
+		echo"<script>alert('el Usuario ".$_POST['name_comp']." se ha ingresado );opener.location.reload();
 		window.close();</script>";
 
 
